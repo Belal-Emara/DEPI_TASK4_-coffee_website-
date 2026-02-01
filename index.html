@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- start header -->
     <header class="container">
-            <!-- start nav -->
+        <!-- start nav -->
         <nav>
             <h2>CoFFEE</h2>
             <ul>
@@ -20,9 +22,12 @@
                 <li><a href="#">ABOUT</a></li>
                 <li><a href="#">LOGIN</a></li>
             </ul>
-            <button><img src="images/search_interface.png" alt="search icon"></button>
+            <div class="nav_actions">
+                <button><img src="images/search_interface.png" alt="search icon"></button>
+                <button class="burger_menu"><img src="images/burger_menu.svg" alt="menu icon"></button>
+            </div>
         </nav>
-            <!-- end nav -->
+        <!-- end nav -->
 
         <!-- start hero section  -->
         <main class="hero_section">
@@ -35,8 +40,8 @@
     <!-- end header -->
 
     <!-- start main section -->
-    <main class="container"> 
-        
+    <main class="container">
+
         <!-- start category bar -->
         <section class="category_bar">
             <figure>
@@ -55,13 +60,13 @@
                 <img src="images/cake.png" alt="icon">
                 <figcaption>dessert</figcaption>
             </figure>
-            
+
         </section>
         <!-- end category bar -->
 
         <!-- start menu section  -->
         <section class="menu_section">
-             
+
             <!-- start coffee section  -->
             <section class="coffee_section">
                 <h2 class="title">OUR SPECIAL COFFEE</h2>
@@ -72,10 +77,11 @@
                         <li class="product_card">
                             <figure class="product_image_container">
                                 <img src="images/lungoCaffee.jpg" alt="coffee image" class="product_image">
-                                <img src="images/heart.png" alt="heart button" class="heart_icon" >
+                                <img src="images/heart.png" alt="heart button" class="heart_icon">
                             </figure>
                             <h3 class="product_title">Lungo Coffee</h3>
-                            <p class="product_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, cum?</p>
+                            <p class="product_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In,
+                                cum?</p>
                             <div class="card_footer">
                                 <h4 class="product_price">Rs.199</h4>
                                 <button class="order_btn">Order Now</button>
@@ -87,7 +93,8 @@
                                 <img src="images/heart.png" alt="heart button" class="heart_icon">
                             </figure>
                             <h3 class="product_title">balgona Coffee</h3>
-                            <p class="product_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, cum?</p>
+                            <p class="product_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In,
+                                cum?</p>
                             <div class="card_footer">
                                 <h4 class="product_price">Rs.199</h4>
                                 <button class="order_btn">Order Now</button>
@@ -99,7 +106,8 @@
                                 <img src="images/heart.png" alt="heart button" class="heart_icon">
                             </figure>
                             <h3 class="product_title">iced Coffee</h3>
-                            <p class="product_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, cum?</p>
+                            <p class="product_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In,
+                                cum?</p>
                             <div class="card_footer">
                                 <h4 class="product_price">Rs.199</h4>
                                 <button class="order_btn">Order Now</button>
@@ -111,7 +119,8 @@
                                 <img src="images/heart.png" alt="heart button" class="heart_icon">
                             </figure>
                             <h3 class="product_title">filter coffee</h3>
-                            <p class="product_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, cum?</p>
+                            <p class="product_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In,
+                                cum?</p>
                             <div class="card_footer">
                                 <h4 class="product_price">Rs.199</h4>
                                 <button class="order_btn">Order Now</button>
@@ -122,58 +131,62 @@
                     <button class="next_btn"><img src="images/right_arrow.svg" alt="right arrow"></button>
                 </div>
             </section>
-             <!-- end coffee section  -->
-            
-             <!-- start dessert section  -->
+            <!-- end coffee section  -->
+
+            <!-- start dessert section  -->
             <section class="dessert_section">
                 <h2 class="title">OUR SPECIAL DESSERT</h2>
                 <div class="carousel_container">
                     <button class="prv_btn"><img src="images/left_arrow.svg" alt=" left arrow button"></button>
 
                     <ul class="product_card_container">
-                        <li class="product_card">                       
+                        <li class="product_card">
                             <figure class="product_image_container">
                                 <img src="images/gulabJamun.jpg" alt="dessert image" class="product_image">
                                 <img src="images/heart.png" alt="heart button" class="heart_icon">
                             </figure>
                             <h3 class="product_title">Gulab Jamun</h3>
-                            <p class="product_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, cum?</p>
+                            <p class="product_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In,
+                                cum?</p>
                             <div class="card_footer">
                                 <h4 class="product_price">Rs.199</h4>
                                 <button class="order_btn">Order Now</button>
                             </div>
                         </li>
-                        <li class="product_card">                       
+                        <li class="product_card">
                             <figure class="product_image_container">
                                 <img src="images/chocolateTiramisu.jpg" alt="dessert image" class="product_image">
                                 <img src="images/heart.png" alt="heart button" class="heart_icon">
                             </figure>
                             <h3 class="product_title">chocolate Tiramisu</h3>
-                            <p class="product_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, cum?</p>
+                            <p class="product_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In,
+                                cum?</p>
                             <div class="card_footer">
                                 <h4 class="product_price">Rs.199</h4>
                                 <button class="order_btn">Order Now</button>
                             </div>
                         </li>
-                        <li class="product_card">                       
+                        <li class="product_card">
                             <figure class="product_image_container">
                                 <img src="images/Churros.jpg" alt="dessert image" class="product_image">
                                 <img src="images/heart.png" alt="heart button" class="heart_icon">
                             </figure>
                             <h3 class="product_title">Churros</h3>
-                            <p class="product_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, cum?</p>
+                            <p class="product_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In,
+                                cum?</p>
                             <div class="card_footer">
                                 <h4 class="product_price">Rs.199</h4>
                                 <button class="order_btn">Order Now</button>
                             </div>
                         </li>
-                        <li class="product_card">                       
+                        <li class="product_card">
                             <figure class="product_image_container">
                                 <img src="images/australianLamingtons.jpg" alt="dessert image" class="product_image">
                                 <img src="images/heart.png" alt="heart button" class="heart_icon">
                             </figure>
                             <h3 class="product_title">australian Lamingtons</h3>
-                            <p class="product_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, cum?</p>
+                            <p class="product_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In,
+                                cum?</p>
                             <div class="card_footer">
                                 <h4 class="product_price">Rs.199</h4>
                                 <button class="order_btn">Order Now</button>
@@ -184,24 +197,25 @@
                     <button class="next_btn"><img src="images/right_arrow.svg" alt="right arrow"></button>
                 </div>
             </section>
-             <!-- end dessert section  -->
-            
-         </section>
+            <!-- end dessert section  -->
+
+        </section>
         <!-- end menu section  -->
 
         <!-- start check out section  -->
-         <section class="check_out">
-            <figure id="hand_image"><img src="images/handseithcoffeecheck.png" alt="hand seith coffee check image"></figure>
-            <div class="check_out_content">    
+        <section class="check_out">
+            <figure id="hand_image"><img src="images/handseithcoffeecheck.png" alt="hand seith coffee check image">
+            </figure>
+            <div class="check_out_content">
                 <h2>Check out our best <br>coffee betans</h2>
                 <button>Lorem ipsum dolor sit.</button>
-            </div>    
+            </div>
             <figure id="coffee_image"><img src="images/coffee.png" alt="coffee peans image"></figure>
-         </section>
+        </section>
         <!-- end check out section  -->
 
         <!-- start testimonials section  -->
-         <section class="testimonials_section">
+        <section class="testimonials_section">
             <span class="subtitle">come and join</span>
             <h2 class="title">OUR HAPPY CUSTOMERS</h2>
             <ul class="testimonials_card_container">
@@ -216,8 +230,13 @@
                         </figure>
                         <span class="rating">⭐⭐⭐⭐⭐</span>
                     </div>
-                    <p class="customer_comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga expedita vitae sunt illo magnam nam provident quisquam unde sequi blanditiis est perferendis necessitatibus ut maiores, modi, atque quod dolorum. Magni.
-                    Qui a deleniti exercitationem excepturi harum velit molestias ipsum odio ullam? Quisquam, voluptas doloremque perferendis aliquam saepe ab maxime aspernatur, autem, nulla libero quo reprehenderit ut debitis? Sint, rem. Natus.</p>
+                    <p class="customer_comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga expedita
+                        vitae sunt illo magnam nam provident quisquam unde sequi blanditiis est perferendis
+                        necessitatibus ut maiores, modi, atque quod dolorum. Magni.
+                        Qui a deleniti exercitationem excepturi harum velit molestias ipsum odio ullam? Quisquam,
+                        voluptas doloremque perferendis aliquam saepe ab maxime aspernatur, autem, nulla libero quo
+                        reprehenderit ut debitis? Sint, rem. Natus.</p>
+                    <button class="see_more_btn">See More</button>
                 </li>
                 <li class="testimonial_card">
                     <div class="customer_info">
@@ -230,8 +249,13 @@
                         </figure>
                         <span class="rating">⭐⭐⭐⭐⭐</span>
                     </div>
-                    <p class="customer_comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga expedita vitae sunt illo magnam nam provident quisquam unde sequi blanditiis est perferendis necessitatibus ut maiores, modi, atque quod dolorum. Magni.
-                    Qui a deleniti exercitationem excepturi harum velit molestias ipsum odio ullam? Quisquam, voluptas doloremque perferendis aliquam saepe ab maxime aspernatur, autem, nulla libero quo reprehenderit ut debitis? Sint, rem. Natus.</p>
+                    <p class="customer_comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga expedita
+                        vitae sunt illo magnam nam provident quisquam unde sequi blanditiis est perferendis
+                        necessitatibus ut maiores, modi, atque quod dolorum. Magni.
+                        Qui a deleniti exercitationem excepturi harum velit molestias ipsum odio ullam? Quisquam,
+                        voluptas doloremque perferendis aliquam saepe ab maxime aspernatur, autem, nulla libero quo
+                        reprehenderit ut debitis? Sint, rem. Natus.</p>
+                    <button class="see_more_btn">See More</button>
                 </li>
                 <li class="testimonial_card">
                     <div class="customer_info">
@@ -244,8 +268,13 @@
                         </figure>
                         <span class="rating">⭐⭐⭐⭐⭐</span>
                     </div>
-                    <p class="customer_comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga expedita vitae sunt illo magnam nam provident quisquam unde sequi blanditiis est perferendis necessitatibus ut maiores, modi, atque quod dolorum. Magni.
-                    Qui a deleniti exercitationem excepturi harum velit molestias ipsum odio ullam? Quisquam, voluptas doloremque perferendis aliquam saepe ab maxime aspernatur, autem, nulla libero quo reprehenderit ut debitis? Sint, rem. Natus.</p>
+                    <p class="customer_comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga expedita
+                        vitae sunt illo magnam nam provident quisquam unde sequi blanditiis est perferendis
+                        necessitatibus ut maiores, modi, atque quod dolorum. Magni.
+                        Qui a deleniti exercitationem excepturi harum velit molestias ipsum odio ullam? Quisquam,
+                        voluptas doloremque perferendis aliquam saepe ab maxime aspernatur, autem, nulla libero quo
+                        reprehenderit ut debitis? Sint, rem. Natus.</p>
+                    <button class="see_more_btn">See More</button>
                 </li>
             </ul>
             <div class="slider">
@@ -253,15 +282,16 @@
                 <span class="dot"></span>
                 <span class="dot"></span>
             </div>
-         </section>
+        </section>
         <!-- end testimonials section  -->
 
         <!-- start newsletter section  -->
         <section class="newsletter_section">
-            <figure class="newsletter_side_img_container"><img src="images/boffeeBeansleft.png" alt="boffeeBeans" class="img_left"></figure>
+            <figure class="newsletter_side_img_container"><img src="images/boffeeBeansleft.png" alt="boffeeBeans"
+                    class="img_left"></figure>
             <div class="newsletter_content">
                 <h2 class="title">join in and get 15% off!</h2>
-                <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing  </p>
+                <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing </p>
                 <form>
                     <!-- customer email -->
                     <fieldset>
@@ -271,13 +301,14 @@
                     <button>Subscribe</button>
                 </form>
             </div>
-            <figure class="newsletter_side_img_container"><img src="images/boffeeBeanssss.png" alt="boffeeBeans" class="img_right"></figure>
+            <figure class="newsletter_side_img_container"><img src="images/boffeeBeanssss.png" alt="boffeeBeans"
+                    class="img_right"></figure>
         </section>
         <!-- end newsletter section  -->
 
     </main>
     <!-- end main section -->
-     
+
     <!-- start footer  -->
     <footer class="container">
         <h2>CoFFEE</h2>
@@ -324,5 +355,7 @@
     <!-- end footer  -->
 
 
+    <script src="script.js"></script>
 </body>
+
 </html>
